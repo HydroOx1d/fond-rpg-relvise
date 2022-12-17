@@ -1,5 +1,5 @@
 @media screen and (max-width: 1300px) {
-  .main__image img {
+  .main-block__image img {
     object-position: right;
   }
 }
@@ -37,10 +37,6 @@
     flex: 0 1 50%;
   }
 
-  .services__column:last-child {
-    flex: 0 1 100%;
-  }
-
   .achievements {
     padding: 50px 0;
   }
@@ -62,10 +58,10 @@
     flex-direction: column-reverse;
     align-items: stretch;
   }
-  .whoweare__video {
+  .whoweare__image {
     padding: 0px 0px 56.25% 0px;
   }
-  .whoweare__video:not(:last-child) {
+  .whoweare__image:not(:last-child) {
     margin: 50px 0px 0px 0px;
   }
   .whoweare__title {
@@ -74,14 +70,6 @@
   .getintouch__cards {
     padding: 0;
     margin: 0 -15px
-  }
-  .footer__column {
-    padding: 15px 15px;
-    flex: 0 1 25%;
-    color: #fff;
-  }
-  .footer__column:last-child {
-    flex: 1 1 50%;
   }
 }
 
@@ -109,11 +97,6 @@
     align-items: center;
     justify-content: space-between;
   }
-  .footer__container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
 }
 
 @media screen and (max-width: 767px) {
@@ -131,13 +114,6 @@
   }
   .contact__button {
     margin-right: 0;
-  }
-  .footer__column {
-    flex: 0 1 50%;
-  }
-
-  .footer__copyright {
-    margin: 0px 0px 15px 0px;
   }
 }
 
