@@ -295,6 +295,7 @@ a {
   line-height: calc(57 / 40 * 100%);
   color: #252B42;
   letter-spacing: 0.2px;
+  color: #ff7b47;
 }
 .achievements__text {
   font-size: 16px;
